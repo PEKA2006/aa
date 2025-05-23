@@ -1,0 +1,49 @@
+.custom-navbar {
+  background: linear-gradient(135deg, #1e1e2f, #25253a);
+  transition: background 0.4s ease-in-out;
+}
+
+.navbar-brand {
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.animated-link {
+  color: white !important;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.animated-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #ff5e57;
+  transition: width 0.3s ease;
+}
+
+.animated-link:hover::after {
+  width: 100%;
+}
+
+.animated-link:hover {
+  color: #ff5e57 !important;
+}
+
+.animate-collapse.collapse:not(.show) {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.animate-collapse.collapse.show {
+  max-height: 500px;
+  transition: max-height 0.4s ease;
+}
