@@ -7,7 +7,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Only works after installing bo
 import 'animate.css';
 import {BrowserRouter} from 'react-router-dom'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b953fe75f312377e6aa4ca7ca3a05e2fea6659a2
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  

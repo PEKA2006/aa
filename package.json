@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "homepage": "https://PEKA2006.github.io/aa",
   "name": "ad",
+=======
+  "homepage": "https://PEKA2006.github.io/anana",
+  "name": "otp",
+>>>>>>> b953fe75f312377e6aa4ca7ca3a05e2fea6659a2
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,8 +13,13 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.6",
+=======
+    "bootstrap": "^5.3.6",
+    "framer-motion": "^12.12.2",
+>>>>>>> b953fe75f312377e6aa4ca7ca3a05e2fea6659a2
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
